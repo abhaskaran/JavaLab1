@@ -1,22 +1,21 @@
+/*
+ * This is the Main class for this project
+ */
 package org.ashwini.basics;
 
 public class Main {
 
 	public static void main(String[] args) {
-		Horse h1 = new Horse();
-		h1.breed = "Arabian Quarter";
-		h1.color = "White";
-		h1.height = 9;
-		h1.weight = 540;
-		h1.purpose = "Racing";
+		
+		Horse h1 = new Horse();		
 		printObject(h1);
 		System.out.println();
 		Horse h2 = new Horse();
 		printObject(h2);
 
 	}
-
-	public static void printObject(Horse MyHorse) {
+//Private utility method to print Horse Object details
+	private static void printObject(Horse MyHorse) {
 		
 		System.out.println("The Breed of horse is: " + MyHorse.breed);
 		System.out.println("The color of horse is: " + MyHorse.color);
