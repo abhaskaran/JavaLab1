@@ -12,6 +12,7 @@ public class Horse {
 	String purpose;
 	String breed;
 	int height;
+	
 	int weight;
 //Default constructor for HorseClass	
 	Horse(){
